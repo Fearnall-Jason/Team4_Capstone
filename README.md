@@ -19,11 +19,13 @@
     ft_pt: Full-time or part-time position
     career_level: Career level of the position (e.g., executive, managerial, professional)
     yearly_salary: Yearly salary for the position (if available)
-    ocation: Location of the job
+    location: Location of the job
     division: Division or department within the organization
     _min_qual: Minimum qualifications required for the position
     res_req: Additional job requirements or responsibilities
     ost_date: Date when the job posting was posted
+
+ 
 
  Analysis and Visualization:
     Job Market Trends:
