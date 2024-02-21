@@ -39,8 +39,3 @@ df =df.rename(columns={'FT/PT': 'Ft_Pt', 'Minimum Qual Requirements' : 'Min_qual
 df =df.rename(columns={'Business Title': 'Business_title', 'Civil Service Title' : 'Civil_title', 'Job Category' : 'Category', 'Career Level' : 'Career_level'})
 df =df.rename(columns={'Posting Type': 'Posting_type', 'Annual Base Salary' : 'Yearly_salary', 'Work Location' : 'Location', 'Division/Work Unit' : 'Division'})
 df =df.rename(columns={'Residency Requirement': 'Res_req', 'Posting Date' : 'Post_Date'})
-
-
-#create local database
-engine = create_engine('sqlite:///CAPSTONE_db.db')
-df.to_sql('NYC_job_postings', con=engine, index=False, if_exists='replace')
