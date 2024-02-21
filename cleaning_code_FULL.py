@@ -9,7 +9,7 @@ from sqlalchemy import create_engine
 import matplotlib.pyplot as plt
 
 #open and read file
-df = pd.read_csv("c:/Users/fearn/Downloads/Jobs_NYC_Postings.csv")
+df = pd.read_csv("Jobs_NYC_Postings.csv")
 pd.set_option('display.max_columns', None)
 
 #Rename FT/PT columns for easier calculations
